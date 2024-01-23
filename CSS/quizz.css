@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(to right, #85c1e9,  #3498db);
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  width: 600px; /* Vous devez définir une valeur égale pour la largeur et la hauteur */
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+}
+
+.quiz-header {
+  padding: 55px;
+}
+
+h2 {
+  padding: 2rem;
+  text-align: center;
+  margin: 0;
+  color: #333; /* Changer la couleur du texte */
+}
+
+ul li {
+  font-size: 1.3rem; /* Augmenter la taille du texte */
+  margin: 1.5rem 0; /* Ajuster la marge autour des éléments de la liste */
+}
+
+ul li label {
+  cursor: pointer;
+  color: #555; /* Changer la couleur du texte des réponses */
+}
+
+button {
+  background-color:  rgb(36, 8, 112); /* Changer la couleur du bouton */
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.2rem; /* Ajuster la taille du texte du bouton */
+  font-family: inherit;
+  padding: 1.5rem;
+  transition: background-color 0.3s ease; /* Ajouter une transition en douceur */
+}
+
+button:hover {
+  background-color: #2980b9; /* Changer la couleur au survol */
+}
+
+button:focus {
+  outline: none;
+  background-color: #2073a0; /* Changer la couleur lorsqu'il est sélectionné */
+}
+.links{
+    
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  justify-content: space-evenly;
+  color: #fff;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+a{
+  text-align: left;
+  color: #fff;
+  font-size: x-large;
+}
+

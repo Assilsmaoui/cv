@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(to right, #85c1e9,  #1890e1);
+ 
+    align-items: center;
+}
+
+
+.word h2 {
+    color: #fff;
+    margin: 100px;
+    font-family: monospace;
+    text-align: center;
+  }
+  
+
+
+.div1{
+    border-style: solid;
+    background-color: aqua;
+    
+}
+
+
+#photoprofile{
+    
+    border-radius: 120px;
+    width: 210px;
+    height: 280px;
+    
+    
+    
+}
+.photo{
+    
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    
+}
+#titre{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.links{
+    
+    display: flex;
+    width: 800px;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+a:visited{
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(0, 255, 115);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+footer{
+    position: fixed;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 8, 112);
+    
+
+    
+}
+.footer{
+    width: 150px;
+    display: flex;
+    font-size: large;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size: medium;
+}
+#p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+}
+#fcb{
+    color:white ;
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
